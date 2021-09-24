@@ -262,28 +262,7 @@ class TransGHG():
         self.roadActiv = roadActiv
         return 0
     
-    """To read Rail Activity Data"""
-    
-    
-    """ For average Rail Actvity/Fuel consumption Data"""
-    
-    
-    """ For Landing and Take Off Data"""
-    
-    
-    """ For Aviation Cruising Data"""
-    
-    
-    """ A Method to read Maritime Data"""
-    
-    
-    """ For Surrogate for Maritime Data"""
-    
-    
-    """ For Surrogate for Off-Road Sector"""
-    
-           
-    """  Export the output into a new Table"""  
+ 
     def exportData(self,df,tablName):
        self.out_df = df
        self.tablName = tablName
